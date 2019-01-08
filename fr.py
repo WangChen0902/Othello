@@ -1,0 +1,5 @@
+f = open('result.txt', 'r')
+str = f.read()
+dic = eval(str)
+print(len(dic))
+f.close()
